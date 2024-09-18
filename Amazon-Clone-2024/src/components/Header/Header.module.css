@@ -1,6 +1,10 @@
 
 
-
+.fixed{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
 
 .header_container{
     background-color:#131921 ;
@@ -175,3 +179,9 @@ outline: 1px solid white;
       display: none;
     }
   }
+
+
+
+ 
+
+
