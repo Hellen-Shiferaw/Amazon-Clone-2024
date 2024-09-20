@@ -7,15 +7,15 @@ export const categoryInfos = [
   },
   {
     title: "Amazon Fashion",
-    name: "Fashion",
+    name: "women's clothing",
     imgLink:
       "https://m.media-amazon.com/images/I/51dJu9wNfcL._AC_UL960_FMwebp_QL65_.jpg",
   },
   {
-    title: "Books",
-    name: "Hard and Soft Copy",
+    title: "Men's clothing",
+    name: "men's clothing",
     imgLink:
-      "https://images-na.ssl-images-amazon.com/images/I/81YkqyaFVEL._AC_UL381_SR381,381_.jpg",
+      "https://m.media-amazon.com/images/I/618bcm65ksL._AC_UL480_FMwebp_QL65_.jpg",
   },
   {
     title: "Jewelery",
