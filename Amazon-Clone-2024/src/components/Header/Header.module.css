@@ -1,172 +1,147 @@
-
-
+*{
+    padding: 0;
+    margin:0 ;
+}
 .fixed{
   position: sticky;
   top: 0;
   z-index: 100;
 }
-
-.header_container{
-    background-color:#131921 ;
+.header__container {
+    background-color: #1a1a1a;
     display: flex;
     gap: 10px;
     align-items: center;
     color: white;
     height: 70px;
-}
-
-.logo_container{
-display: flex;
-align-items: center;
-justify-content: center;
-max-width: 250px;
-
-}
-
-.logo_container img {
+  }
+  .logo__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+  }
+  .logo__container img {
     width: 80%;
     padding-top: 5px;
     margin-left: 20px;
     vertical-align: middle;
-}
-
-.delivery {
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 3px;
-font-weight: bold;
-padding: 5px;
-}
-
-.delivery p {
+  }
+  .delivery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  .delivery p {
     font-size: 10px;
-}
-
-.search {
+  }
+  .search {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 10px;
+    border-radius: 10px;
     overflow: hidden;
     width: 100%;
     flex: 1;
-}
-
-
-
-
-.search input {
-
-padding: 10px;
-font-weight: bold;
-outline: 1px solid white;
-}
-
-.search select {
+  }
+  .search select,
+  .search input {
+    padding: 10px;
+    font-weight: bold;
+    outline: 1px solid white;
+  }
+  .search select {
     border: none;
-}
-
-.search input {
-
-    border: 1px solid wheat;
+  }
+  
+  .search input {
+    border: 1px solid white;
     width: 100%;
     margin-right: -2px;
-}
-
-.search svg{
-
+    /* border: none; */
+  }
+  .search svg {
     padding: 7px;
-    background:#febd69 ;
-    color:#131921 ;
-}
-.search svg:hover{
+    background: #febd69;
+    color: #1a1a1a;
+  }
+  .search svg:hover {
     background-color: #d49644;
-}
-.search:focus-within{
-    border: 2px solid rgb(235, 161,173);
-}
-
-
-
-.order_container {
-
+  }
+  .search:focus-within {
+    border: 2px solid rgb(235, 161, 173);
+  }
+  .order__container {
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 450px;
     gap: 10px;
-
-
-} 
-
-.order_container a {
+  }
+  .order__container a {
     text-decoration: none;
     color: white;
-}
-.order_container p {
-    font-size: 10px;
-}
-
-.language {
-
+  }
+  .order__container p {
+    font-size: 13px;
+  }
+  .language {
     width: 100px;
     display: flex;
     padding: 10px;
-}
+  }
+  .language select {
+    background-color: #1a1a1a;
+    border: none;
+    color: white;
+  }
+  .language img {
+    width: 40%;
+  }
 
-.language select{
-  background-color:#131921 ;
-  border: none;
-  color: white;  
-}
-.language img {
-    width: 40px;
-}
-
-.cart {
+  .cart {
     position: relative;
-}
-.cart span{
+  }
+  .cart span {
     position: absolute;
     font-weight: bold;
-    top: 0px;
+    top: -6px;
     font-size: 20px;
-    background-color: #131921;
-    left: 16px;
-    color: orange;
-}
-
-.order_container a:hover,
+    background-color: #1a1a1a;
+    left: 14px;
+    color: orange
+  }
+  .order__container a:hover,
 .delivery:hover,
-.logo_container a:hover,
-
-.lower_container ul li:hover{
-    border: 1px solid white;
-    border-radius: 3px;
+.logo__container a:hover,
+.lower__container ul li:hover {
+  border: 1px solid white;
+  border-radius: 3px;
 }
-.lower_container {
-    background-color:#232f3e ;
+
+
+.lower__container {
+    background-color: #232f3e;
     color: white;
-}
-
-.lower_container ul{
+  }
+  .lower__container ul {
     display: flex;
     list-style: none;
     gap: 5px;
-    
-
-}
-.lower_container ul li {
+  }
+  .lower__container ul li {
     padding: 8px;
-}
-.lower_container ul li :first-child{
-    display:flex;
+  }
+  .lower__container ul li:first-child {
+    display: flex;
     gap: 2px;
     align-items: center;
-}
+  }
 
- @media screen and (max-width: 576px) {
+  @media screen and (max-width: 576px) {
     .header__container {
       display: flex;
       flex-direction: column !important;
@@ -179,9 +154,3 @@ outline: 1px solid white;
       display: none;
     }
   }
-
-
-
- 
-
-
