@@ -17,7 +17,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
 
 const stripePromise = loadStripe(
-  "pk_test_51OU6YoIrgvX7vjwlwFwZFFmBbuXRo77ewG49UZBndLITKEtINgOsTCmKbx4dvva5opJQYlTggPJ3SuK3HpprL1Pj006REMjwGf"
+  "pk_test_51Q1ut0EDniet6EVGro5uZ8ijBbOc9WNaGrVZ6yVm5vbuNCAHVDmJlpR7vBRjHHBgkEAZRAXdTbjzQ4k7NarSxKXL00tgAwFp86"
 );
 function Routing() {
   return (
@@ -38,6 +38,7 @@ function Routing() {
             </ProtectedRoute>
           }
         />
+
         <Route
           path="/orders"
           element={

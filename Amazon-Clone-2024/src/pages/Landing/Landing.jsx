@@ -1,7 +1,7 @@
 import React from "react";
 import LayOut from "../../Components/LayOut/LayOut";
 import Carousel from "../../Components/Carousel/CarouselEffect";
-import Category from "../../components/Catagory/Category";
+import Category from "../../components/Category/Category";
 import Product from "../../Components/Product/Product";
 function Landing() {
   return (
